@@ -22,7 +22,7 @@ body{
 .side-nav {
     width: 250px;
     height: 100%;
-    background: #0d74f5;
+    background:	#FF676D;
     position: fixed;
     top: 0;
     left: 0;
@@ -97,7 +97,7 @@ body{
     width: 45px;
 }
 
-body::before {
+/* body::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -107,7 +107,7 @@ body::before {
   background: #FF676D;
   z-index: -1;
   clip-path: inset(47% 0 0 0);
-}
+} */
 ::selection{
   background:	#FF676D;
   color: #fff;
