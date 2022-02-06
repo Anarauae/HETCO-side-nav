@@ -100,17 +100,6 @@ body{
     width: 45px;
 }
 
-/* body::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: #FF676D;
-  z-index: -1;
-  clip-path: inset(47% 0 0 0);
-} */
 ::selection{
   background:	#FF676D;
   color: #fff;
