@@ -26,14 +26,16 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px 30px;
+    padding: 50px 30px;
 }
 .logo {
     display: block;
     margin-bottom: 130px;
+    margin-left: 40px;
 }
 .logo-img {
-     width: 150px; 
+     width: 100px; 
+     justify-content: center;
 }
 .nav-links {
     list-style: none;
@@ -48,6 +50,7 @@ body{
     padding: 10px 14px;
     display: flex;
     align-items: center;
+    /* margin-right: 70px; */
 }
 .nav-links li a i{
     font-size: 22px;
@@ -111,6 +114,7 @@ body{
 ::selection{
   background:	#FF676D;
   color: #fff;
+  
 }
 .container{
   max-width: 1000px;
@@ -210,7 +214,7 @@ body{
   height: 15px;
   width: 15px;
   border-radius: 20px;
-  background: #fff;
+  background: #aabbd1;
   margin: 0 4px;
   cursor: pointer;
   transition: all 0.5s ease;
